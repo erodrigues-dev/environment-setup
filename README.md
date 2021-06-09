@@ -2,8 +2,6 @@
 
 ## Dev environment
 
-Include in this [script](./install-dev-environment.sh)
-
 - gnome-tweaks
 - insomnia
 - flatpak
@@ -19,3 +17,10 @@ Include in this [script](./install-dev-environment.sh)
 - docker
 - docker-compose
 - git settings
+
+## Install Setup
+
+```sh
+wget -O /tmp/setup.sh https://raw.githubusercontent.com/erodrigues-dev/environment-setup/main/setup.sh
+bash /tmp/setup.sh
+```
