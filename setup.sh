@@ -99,5 +99,31 @@ git config --global merge.tool meld
 git config --global diff.tool meld
 git config --global mergetool.keepbackup false
 
+
+echo '------------ git-flow'
+sudo apt-get install git-flow -y
+
+
+echo '----------- code extensions'
+code --install-extension aaron-bond.better-comments
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension dracula-theme.theme-dracula
+code --install-extension eamodio.gitlens
+code --install-extension editorconfig.editorconfig
+code --install-extension eg2.vscode-npm-script
+code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension johnpapa.vscode-peacock
+code --install-extension jpoissonnier.vscode-styled-components
+code --install-extension kamikillerto.vscode-colorize
+code --install-extension mhutchie.git-graph
+code --install-extension mikestead.dotenv
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension PKief.material-icon-theme
+code --install-extension ritwickdey.liveserver
+code --install-extension tyriar.lorem-ipsum
+code --install-extension yzhang.markdown-all-in-one
+
 echo '-----------------------------'  
 echo '>> done!'
