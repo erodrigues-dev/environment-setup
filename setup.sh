@@ -104,6 +104,8 @@ git config --global mergetool.keepbackup false
 echo '------------ git-flow'
 sudo apt-get install git-flow -y
 
+echo '------------ create alias to vscode'
+echo 'alias code="flatpak run com.visualstudio.code"' >> ~/.bashrc
 
 echo '----------- code extensions'
 code --install-extension aaron-bond.better-comments
