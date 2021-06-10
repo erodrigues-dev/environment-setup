@@ -95,6 +95,7 @@ git config --global user.name $NAME
 git config --global user.email $EMAIL
 git config --global pull.rebase true
 git config --global core.filemode false
+git config --global core.editor vim
 git config --global merge.tool meld
 git config --global diff.tool meld
 git config --global mergetool.keepbackup false
