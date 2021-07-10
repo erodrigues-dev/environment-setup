@@ -89,7 +89,10 @@ flatpak install flathub com.github.hluk.copyq
 
 echo '------------ peek (gravador de tela)'
 flatpak install flathub com.uploadedlobster.peek
-  
+
+echo '------------ bitwarden (gerenciador de senhas)'
+flatpak install com.bitwarden.desktop
+
 echo '------------ git settings'
 git config --global user.name $NAME
 git config --global user.email $EMAIL
