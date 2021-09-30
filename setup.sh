@@ -130,6 +130,7 @@ code --install-extension PKief.material-icon-theme
 code --install-extension ritwickdey.liveserver
 code --install-extension tyriar.lorem-ipsum
 code --install-extension yzhang.markdown-all-in-one
+code --install-extension meganrogge.template-string-converter
 
 echo '-----------------------------'  
 echo '>> done!'
